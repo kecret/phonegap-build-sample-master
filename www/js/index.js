@@ -34,7 +34,7 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
-		window.plugins.PushbotsPlugin.initialize("PUSHBOTS_APPLICATION_ID", {"android":{"sender_id":"GOOGLE_SENDER_ID"}});
+		window.plugins.PushbotsPlugin.initialize("5ec3d44832baa85ae50e8d13", {"android":{"sender_id":"578650741571"}});
 		
 		// Only with First time registration
 		window.plugins.PushbotsPlugin.on("registered", function(token){
